@@ -1,0 +1,38 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  height: 400px;
+}
+.car {
+  width: 150px;
+}
+.target {
+  width: 60px;
+}
+.bomb {
+  width: 120px;
+}
+body {
+  background-color: rgb(212, 227, 153);
+}
+p {
+  text-align: left;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transform: translateX(15px);
+}
+
+#points {
+  transform: translateX(75px);
+}
+h1 {
+  text-align: center;
+  color: red;
+}
+.title {
+  text-align: left;
+  width: 50px;
+  height: 50px;
+  transform: translate(800px, -59px);
+}
