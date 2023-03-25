@@ -1,0 +1,29 @@
+body {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  background-color: rgb(9, 67, 118, 0.7);
+  color: white;
+}
+h1 {
+  font-size: 60px;
+}
+#country {
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+}
+#searchBtn {
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+
+  background-color: rgb(231, 231, 219);
+}
+#searchBtn:hover {
+  background-color: rgb(7, 44, 112);
+  color: white;
+}
+p {
+  font-size: 25px;
+}

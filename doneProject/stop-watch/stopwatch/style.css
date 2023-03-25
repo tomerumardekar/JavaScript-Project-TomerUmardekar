@@ -1,0 +1,32 @@
+* {
+  text-align: center;
+
+  background-color: black;
+}
+#stopWatchView {
+  font-size: 100px;
+  color: antiquewhite;
+}
+button {
+  margin: 20px;
+  padding: 20px;
+  width: 100px;
+  border-radius: 2px;
+  background-color: rgb(221, 86, 190);
+}
+#lapsView {
+  line-height: 60px;
+  font-size: 33px;
+  color: antiquewhite;
+}
+h1 {
+  color: antiquewhite;
+  font-size: 50px;
+}
+img {
+  height: 44px;
+
+  position: relative;
+  left: 150px;
+  top: 90px;
+}

@@ -1,0 +1,54 @@
+body {
+  box-sizing: border-box;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+
+  background-color: whitesmoke;
+}
+button {
+  border-radius: 10px;
+  width: 70px;
+  height: 50px;
+  text-align: center;
+  margin-right: 5px;
+
+  margin-top: auto;
+  transform: translate(20px, -17px);
+
+  background-color: rgb(249, 70, 6);
+}
+
+button:hover {
+  background-color: antiquewhite;
+}
+#time-input {
+  width: 280px;
+  height: 40px;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+div {
+  margin-top: 150px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+#timers-container {
+  line-height: 60px;
+  font-size: 33px;
+  color: rgb(212, 150, 69);
+}
+h1 {
+  color: rgb(212, 150, 69);
+  font-size: 60px;
+}
+img {
+  height: 70px;
+  width: 70px;
+  position: relative;
+  left: 150px;
+  top: 110px;
+}
