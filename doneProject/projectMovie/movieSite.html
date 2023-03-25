@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesMovie.css" />
+</head>
+
+<body>
+    <h2>Welcome to movie site</h2>
+    <p>On this site you can search for your favorite movie and in addition add movies that you recommend you will enjoy!
+    </p>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="img1.jpg" style="width:100%; height: 480px;">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="img2.jpg" style="width:100%; height: 480px;">
+
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="img3.jpg" style="width:100%; height: 480px;">
+
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <div id="sortMovies">sort by:
+        <select name="sortBy" id="sortBySelect">
+            <option value="category">category</option>
+            <option value="length">length</option>
+            <option value="name">name</option>
+            <option value="priceLow2High">price (high to low)</option>
+            <option value="PriceHigh2Low">price (low to high)</option>
+        </select>
+    </div>
+    <br>
+    <div id="filterContainer">
+        sort by category:
+        <select name="category" id="categoryFilter">
+            <option value="comedy">comedy</option>
+            <option value="drama">drama</option>
+            <option value="horror">horror</option>
+        </select>
+        <br><br>
+        sort by length:
+        <br>
+        <label for="fromLen">from length</label><br>
+        <input type="number" id="fromLen"><br>
+        <label for="toLen">to length</label><br>
+        <input type="number" id="toLen"><br><br>
+        <input type="button" value="filter by len" id="filterLenBtn">
+        <br><br>
+
+
+
+    </div>
+
+
+
+    <div id="searchContainer">
+
+        <!-- שורת חיפוש -->
+        <input type="text" id="searchInput" placeholder="Search Movie" height="16"></input>
+        <!-- כפתור חיפוש -->
+        <button><svg width="16" height="16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg></button>
+
+    </div>
+    <div id="moviesContainer" class="moviesContainer">
+
+
+    </div>
+
+    <div id="formContainer" style="display: none;">
+        <br><br><br><br>
+        <form id="addForm">
+            <label for="movieName">Movie name:</label><br>
+            <input type="text" id="movieName"><br><br>
+            <label for="movieLength">Movie length:</label><br>
+            <input type="text" id="movieLength"><br><br>
+            <label for="category">Category:</label><br>
+            <select name="category" id="category">
+                <option value="comedy">comedy</option>
+                <option value="drama">drama</option>
+                <option value="horror">horror</option>
+            </select> <br> <br>
+            <label for="moviePrice">Movie price:</label><br>
+            <input type="text" id="moviePrice"><br><br>
+            <input type="button" value="Submit" id="formBtn">
+            <div id="movieList"></div>
+        </form>
+    </div>
+
+
+    <script src="movieSite.js"></script>
+</body>
+
+</html>
