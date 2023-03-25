@@ -1,0 +1,145 @@
+body {
+  background-color: whitesmoke;
+  /*  background-color: rgb(165, 158, 247); */
+}
+.navbar-nav {
+  height: 100px;
+}
+.nav {
+  transform: translate(100px, 60px);
+  font-size: 150%;
+  padding: -20px;
+}
+
+.active {
+  color: #9301a2 !important;
+}
+#home-page {
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  display: block;
+  margin: auto;
+  width: 80%;
+  /*   background-color: rgb(148, 83, 166, 0.1); */
+  padding: 15px;
+  border-radius: 10px;
+  color: rgb(61, 129, 55);
+}
+#about-page {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+  text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: block;
+  margin: auto;
+  width: 80%;
+  background-color: rgb(148, 83, 166, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+.logo {
+  width: 150px;
+  transform: translate(-100px, -80px);
+  margin: 1px;
+  padding-top: 5px;
+  padding-right: 60px;
+}
+/* .img {
+  width: 100px;
+  padding: 20px;
+  margin: 10px;
+} */
+#image-description {
+  font-size: 20px;
+}
+#news-page {
+  font-size: 1.1rem;
+  font-family: "Roboto:ital";
+  line-height: 1.5rem;
+  text-align: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: block;
+  margin: auto;
+  width: 80%;
+  background-color: rgb(148, 83, 166, 0.1);
+  padding: 10px;
+}
+
+.OLLIEAND {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  width: 250px;
+  height: 250px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  margin: 5px;
+}
+
+.OLLIEAND:hover {
+  box-shadow: 0 0 10px 1px rgb(61, 129, 55);
+  transform: scale(1.1);
+}
+
+.btn-primary {
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: rgb(102, 159, 102);
+}
+
+.btn-primary:hover {
+  background-color: rgba(33, 25, 35, 0.1);
+}
+
+.maya {
+  width: 25%;
+  height: 30%;
+}
+#slider-image {
+  width: 800px;
+  padding: 20px;
+}
+.oli {
+  margin-left: 100px;
+
+  padding: 20px;
+}
+.footer-container {
+  justify-content: space-between;
+  align-items: center;
+  padding: -10px;
+  background-color: rgb(84, 125, 80);
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 35px;
+  height: 6%;
+}
+
+.footer-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.footer-info p,
+.footer-social a {
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  text-align: center;
+  height: 20px;
+  padding-left: 10px;
+}
+.about {
+  text-align: center;
+  line-height: 50px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
