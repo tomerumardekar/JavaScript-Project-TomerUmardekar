@@ -1,0 +1,121 @@
+
+        @media(max-width:575px){
+            .frontimg{
+                display: block;
+            }
+            .carousel-inner{
+                display: none;
+            }
+
+        }
+        @media(min-width:576px){
+             .frontimg{
+                display: none;
+            }
+        }
+
+        #tx {
+            font-size: 1.2rem;
+            font-family: 'Roboto:ital';
+           /*  border: 0.3rem solid #f2cc0f; */
+            line-height: 2rem;
+            margin: auto;
+            width: 70%;
+            padding: 15px;
+             background-color:rgb(148,83,166,0.1);
+            border-radius: 10px;
+
+        }
+
+
+        p {
+            font-size: 1rem;
+            font-family: 'Roboto:ital';
+            line-height: 1.5rem;
+            text-align: center;
+        }
+
+figcaption {
+            width: 100%;
+            background-color: rgba(140, 191, 63, 0.5);
+            text-align: left;
+            font-size: 16px;
+            color: #0d0d0d;
+            font-family: 'Roboto:ital';
+            line-height: 3;
+            height: 45px;
+            transition: all 0.7s ease-in-out;
+            transform: translatey(-45px);
+        }
+
+
+   /*  .row {
+    width: 100%;
+           margin:0 auto;
+       display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr; 
+
+        }  */
+
+ 
+        .card {
+            margin: 8px;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            height: 420px;
+            transition: all 0.2s ease-in-out;
+        }
+        .card:hover{
+            transform: scale(1.1);
+        }
+
+        .card-title {
+            text-align: center;
+            font-family: 'Pattaya';
+        }
+
+        .card-text {
+            font-size: 1rem;
+            font-family: 'Roboto:ital';
+            line-height: 1.5rem;
+            text-align: center;
+        }
+
+        .card-img-top {
+            cursor: pointer;
+
+            width: 80%;
+            height: 190px;
+            border: 2px solid#8cbf3f;
+            margin: 0px auto;
+            margin-top: 5%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 10px;
+        }
+
+        .card-img-top:hover .card-body {
+            display: block;
+        }
+
+        .btn {
+            background-color: #9453A6;
+            color: #8CBF3F;
+            font-weight: bold;
+            align-items: center;
+            font-family: 'Roboto:ital';
+
+        }
+
+        .btn:hover {
+            background-color: #8CBF3F;
+            color: #9453A6;
+        }
+
+        .h {
+            text-align: center;
+            font-family: 'Pattaya', sans-serif;
+            font-size: 3rem;
+            color: #9453A6;
+        }
+        h6{
+           text-align:center;
+        }
