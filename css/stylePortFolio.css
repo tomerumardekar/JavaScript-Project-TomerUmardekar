@@ -324,3 +324,16 @@ h5 {
     margin: 10px 0;
   }
 }
+
+@keyframes fadeAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeAnimation 1s ease-in;
+}
