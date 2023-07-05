@@ -1,5 +1,5 @@
 # JavaScript-Project-TomerUmardekar
- my portfolio in javaScript
+ Here you can find 8 projects
  Here you can find projects with the following technologies: TypeScript, Bootstrap, API, and local storage.
 The projects available are:
 Maradi Gra 
