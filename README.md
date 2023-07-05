@@ -1,6 +1,6 @@
 # JavaScript-Project-TomerUmardekar
- Here you can find 8 projects
- Here you can find projects with the following technologies: TypeScript, Bootstrap, API, and local storage.
+ Here you can find 8 projects,
+ with the following technologies: TypeScript, Bootstrap, API, and local storage.
 The projects available are:
 Maradi Gra 
 Weather Forecast 
