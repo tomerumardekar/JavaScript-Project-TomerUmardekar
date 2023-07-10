@@ -3,25 +3,46 @@ body {
   margin: auto;
   padding: auto;
   text-align: center;
-
   background-color: whitesmoke;
 }
+
 button {
   border-radius: 10px;
   width: 70px;
   height: 50px;
   text-align: center;
   margin-right: 5px;
-
   margin-top: auto;
   transform: translate(20px, -17px);
-
   background-color: rgb(249, 70, 6);
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) {
+  button {
+    width: 60px;
+    height: 40px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  button {
+    width: 100%;
+    max-width: 150px;
+    height: 40px;
+    font-size: 14px;
+    margin-top: 10px;
+    transform: none;
+  }
 }
 
 button:hover {
   background-color: antiquewhite;
 }
+
 #time-input {
   width: 280px;
   height: 40px;
@@ -29,6 +50,7 @@ button:hover {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
+
 div {
   margin-top: 150px;
   margin: auto;
@@ -41,14 +63,38 @@ div {
   font-size: 33px;
   color: rgb(212, 150, 69);
 }
+
 h1 {
   color: rgb(212, 150, 69);
   font-size: 60px;
 }
+
 img {
   height: 70px;
   width: 70px;
   position: relative;
   left: 150px;
   top: 110px;
+}
+
+/* Media Queries */
+
+/* Tablet */
+@media (max-width: 768px) {
+  div {
+    width: 70%;
+  }
+
+  img {
+    left: 100px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  img {
+    left: 10%;
+    transform: translateX(-50%);
+    top: 20px;
+  }
 }

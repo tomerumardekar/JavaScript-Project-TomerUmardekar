@@ -53,7 +53,7 @@ figcaption {
 }
 .card-title {
   font-family: "Oswald", sans-serif;
-  color: #015852;
+  color: black;
 }
 
 .card-text {
@@ -100,7 +100,7 @@ h3,
 h2,
 h5 {
   font-family: "Oswald", sans-serif;
-  color: #015852;
+  color: rgb(37, 37, 37);
   margin: auto;
   font-weight: bold;
   padding: 15px;
@@ -247,6 +247,7 @@ h5 {
   align-items: center;
   border-radius: 2px;
 }
+
 .contact {
   margin: auto;
   width: 75%;
