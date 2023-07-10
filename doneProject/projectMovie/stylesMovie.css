@@ -38,9 +38,9 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  width: auto;
-  position: relative;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Caption text */
